@@ -26,7 +26,7 @@ dbt run --vars-'{"pt": "2022-10-15"} ...
 
 ![asset run](asset_log.png)
 
-The dbt modes can then use this variable to intelligently to subselect certain data, e.g.:
+The dbt models can then use this variable to intelligently subselect certain data, e.g.:
 
 ```
 select
